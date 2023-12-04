@@ -43,6 +43,8 @@ header {
     grid-column: 1 / 5;
     padding-top: var(--sm-marg) auto 0 var(--sm-marg);
     white-space: pre;
+    font-style: italic;
+    font-size: .7rem;
 }
 
 /* holds photo, contact info, and skills */
