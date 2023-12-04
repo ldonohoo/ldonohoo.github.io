@@ -46,6 +46,8 @@ header {
     white-space: pre;
     font-style: italic;
     font-size: .7rem;
+    vertical-align: bottom;
+    
 }
 
 /* holds photo, contact info, and skills */
