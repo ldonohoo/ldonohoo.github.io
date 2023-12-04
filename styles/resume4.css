@@ -42,7 +42,7 @@ header {
     grid-row: 1;
     grid-column: 1 / 5;
     padding-top: var(--sm-marg);
-    padding-left: 40rem;
+    padding-left: 70%;
     white-space: pre;
     font-style: italic;
     font-size: .7rem;
