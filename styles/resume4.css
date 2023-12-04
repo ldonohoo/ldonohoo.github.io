@@ -41,7 +41,8 @@ header {
     height: 1.3rem;
     grid-row: 1;
     grid-column: 1 / 5;
-    padding-top: var(--sm-marg) auto 0 var(--sm-marg);
+    padding-top: var(--sm-marg);
+    padding-left: 40rem;
     white-space: pre;
     font-style: italic;
     font-size: .7rem;
