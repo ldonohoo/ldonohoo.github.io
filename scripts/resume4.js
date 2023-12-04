@@ -97,7 +97,7 @@ function getLeaves() {
 	*/
 
 function spraySparkles() {
-	alert("sparkles!");
+	alert("<great effect here>");
 }
 
 
@@ -125,6 +125,7 @@ document.querySelector(".email").addEventListener("mouseout", (event) => {
 		event.target.querySelector(".tooltiptext2").style.display = "none"; 	} });
 
 document.getElementById("photo").addEventListener("click", spraySparkles);
+document.getElementById("treeimg").addEventListener("click", getLeaves);
 document.querySelector(".phone").addEventListener("click", (event) => {navigator.clipboard.writeText(event.target.innerText);} );
 document.querySelector(".email").addEventListener("click", (event) => {navigator.clipboard.writeText(event.target.innerText);} );
 document.getElementById("ball").addEventListener("click", ballDrop);
